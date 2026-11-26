@@ -15,7 +15,8 @@
     border: 1px solid rgb(37,147,255);
 }
 .todos-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap:20px
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
 }
+    
